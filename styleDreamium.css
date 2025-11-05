@@ -1,0 +1,224 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+.logo img {
+  height: 80px;
+  border-radius: 35px;
+}
+
+header {
+  background-color: #18437b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 70px;
+  font-weight: 700;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  color: aliceblue;
+  z-index: 5;
+  font-size: xx-large;
+}
+
+nav a {
+  box-shadow: inset 0 0 0 0 #9bb4a5;
+  color: #f6f9fd;
+  margin: 0 -0.25rem;
+  padding: 0 0.3rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav a:hover {
+  box-shadow: inset 120px 0 0 0 #9bb4a5;
+  color: #5a8069;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero_video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -2;
+}
+
+.hero_text {
+  text-align: center;
+  color: #447ac0;
+  font-size: x-large;
+  z-index: -1;
+  background-color: #f2f7fca8;
+  width: 50%;
+  border-radius: 30px;
+}
+
+body {
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#about_us {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 15px 70px;
+  background-color: #9bb4a5;
+  color: #eef5ff;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#about_us div {
+  max-width: 600px;
+}
+
+#about_us img {
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: #eef5ff 0px 1px 4px, rgb(248, 238, 227) 0px 0px 0px 3px;
+}
+
+#about_us h1 {
+  font-size: 4rem;
+  color: #5a8069;
+}
+
+#about_us p {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+#newsletter {
+  display: flex;
+  align-items: center;
+  background-color: #9bb4a5;
+  padding: 20px 70px;
+  justify-content: space-around;
+  flex-direction: column;
+  color: #fcfcfc;
+}
+
+#newsletter form {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+#newsletter .text-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #229c744d;
+}
+
+#newsletter form label {
+  font-size: large;
+  color: #fcfcfc;
+  margin-bottom: 5px;
+}
+
+#newsletter h2 {
+  font-size: 2rem;
+}
+
+#newsletter .subscribe button {
+  background-color: #6f8b7a;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  font-weight: 700;
+  font-size: large;
+  border-radius: 8px;
+}
+
+#name,
+#room,
+#email {
+  width: 550px;
+  display: block;
+  margin-bottom: 20px;
+}
+.subscribe {
+  text-align: center;
+}
+.contact_socials {
+  display: flex;
+  justify-content: space-between;
+  background-color: #18437b;
+  padding: 10px 100px;
+  color: #fff2e4f5;
+}
+
+.contact_socials a {
+  text-decoration: none;
+  color: #fff2e4f5;
+}
+
+#services {
+  padding: 20px 150px;
+  margin-bottom: 50px;
+}
+
+.services_class {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#services h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.card1 {
+  background-color: #f2f7fca8;
+  border: 2px solid #18437b;
+  width: 400px;
+  height: 470px;
+  transition: all 0.3s;
+  padding: 20px 40px;
+  font-size: larger;
+  border-radius: 20px;
+}
+
+.card1:hover {
+  background-color: #18437b;
+  color: #ffffff;
+}
+
+#copyright {
+  color: #18437b;
+  text-align: center;
+  font-weight: 500;
+}
