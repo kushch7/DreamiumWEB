@@ -101,6 +101,41 @@
       </div>
   </section>
 
+  <div class="popup-div">
+    <button class="popup_btn" id="openPopup">Join hotel</button>
+
+    <div id="popup">
+      <div class="popup-content">
+        <h2>Welcome, Dreamer.</h2>
+        <p>Special offer! You can reserve a room and get one more room for free! <br>Special offer ends in...</p>
+        <section id="countdown" class="container">
+          <div class="timer">
+            <div class="time">
+              <h3 id="days">00</h3>
+              <p>days</p>
+            </div>
+            <div class="time">
+              <h3 id="hours">00</h3>
+              <p>hours</p>
+            </div>
+            <div class="time">
+              <h3 id="minutes">00</h3>
+              <p>minutes</p>
+            </div>
+            <div class="time">
+              <h3 id="seconds">00</h3>
+              <p>seconds</p>
+            </div>
+          </div>
+        </section>
+        <div>
+          <button id="okBtn">OK</button>
+          <button id="cancelBtn">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </div>
 
   <section id="newsletter">
@@ -156,6 +191,9 @@
   </footer>
 
   </section>
+
+  <script src="popup.js"></script>
+  <script src="timer.js"></script>
 </body>
 
 </html>
